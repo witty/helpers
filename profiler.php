@@ -9,6 +9,7 @@
  * </pre>
  *
  * @author lzyy http://blog.leezhong.com
+ * @homepage https://github.com/witty/helpers/blob/master/profiler.php
  * @version 0.1.1
  */
 class Profiler {

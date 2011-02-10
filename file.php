@@ -3,6 +3,7 @@
  * File Helper borrowed from CI
  *
  * @author ExpressionEngine-Dev-Team http://codeigniter.com
+ * @homepage https://github.com/witty/helpers/blob/master/file.php
  * @version 0.1.0
  */
 class File

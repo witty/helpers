@@ -3,6 +3,7 @@
  * Array helper.
  *
  * @author Kohana-Team http://kohanaframework.org
+ * @homepage https://github.com/witty/helpers/blob/master/arr.php
  * @version 0.1.0
  */
 class Arr {
