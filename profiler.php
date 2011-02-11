@@ -27,8 +27,8 @@ class Profiler {
 			'name'  => (string) $name,
 			'start_time'   => microtime(true),
 			'start_memory' => memory_get_usage(),
-			'stop_time'    => true,
-			'stop_memory'  => true,
+			'stop_time'    => FALSE,
+			'stop_memory'  => FALSE,
 		);
 
 		return $token;
