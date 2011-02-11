@@ -10,7 +10,7 @@
  *
  * @author lzyy http://blog.leezhong.com
  * @homepage https://github.com/witty/helpers/blob/master/profiler.php
- * @version 0.1.1
+ * @version 0.1.2
  */
 class Profiler {
 
@@ -27,8 +27,8 @@ class Profiler {
 			'name'  => (string) $name,
 			'start_time'   => microtime(true),
 			'start_memory' => memory_get_usage(),
-			'stop_time'    => FALSE,
-			'stop_memory'  => FALSE,
+			'stop_time'    => FALSE, // edit 0.1.2
+			'stop_memory'  => FALSE, // edit 0.1.2
 		);
 
 		return $token;
